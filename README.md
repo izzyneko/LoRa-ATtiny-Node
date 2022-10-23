@@ -1,17 +1,4 @@
 
-               ________________                 
-         ANT   |                |   GND   ->   GND
-         GND   |                |   DIO5
-         DIO3  |                |   RESET
-         DIO4  |                |   NSS   ->   PB3
- VCC  <- 3.3V  |                |   SCK   ->   PB2
-         DIO0  |         _______|   MOSI  ->   PB1
-         DIO1  |        |       |   MISO  ->   PB0
-         DIO2  |        |   IC  |   GND
-               |________|______ |
-Este proyecto es un fork de https://github.com/novag/LoRa-ATtiny-Node
-A diferencia del anterior es para la region Europea este lo sera la version America 
-Diagrama de conexion 
 
 
 # LoRa-ATtiny-Node
