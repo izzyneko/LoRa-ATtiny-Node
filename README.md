@@ -1,7 +1,5 @@
 Este proyecto es un fork de https://github.com/novag/LoRa-ATtiny-Node
-
 A diferencia del anterior es para la region Europea este lo sera la version America 
-
 Diagrama de conexion 
 
                ________________                 
