@@ -1,6 +1,3 @@
-Este proyecto es un fork de https://github.com/novag/LoRa-ATtiny-Node
-A diferencia del anterior es para la region Europea este lo sera la version America 
-Diagrama de conexion 
 
                ________________                 
          ANT   |                |   GND   ->   GND
@@ -12,6 +9,9 @@ Diagrama de conexion
          DIO1  |        |       |   MISO  ->   PB0
          DIO2  |        |   IC  |   GND
                |________|______ |
+Este proyecto es un fork de https://github.com/novag/LoRa-ATtiny-Node
+A diferencia del anterior es para la region Europea este lo sera la version America 
+Diagrama de conexion 
 
 
 # LoRa-ATtiny-Node
