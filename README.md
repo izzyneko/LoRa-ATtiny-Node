@@ -2,6 +2,15 @@
 
 
 # LoRa-ATtiny-Node
+               ________________                 
+         ANT   |                |   GND   ->   GND
+         GND   |                |   DIO5
+         DIO3  |                |   RESET
+         DIO4  |                |   NSS   ->   PB3
+ VCC  <- 3.3V  |                |   SCK   ->   PB2
+         DIO0  |         _______|   MOSI  ->   PB1
+         DIO1  |        |       |   MISO  ->   PB0
+         DIO2  |________|___IC__|   GND
 
 *If you are looking for the generic SlimLoRa library for use with Arduinos click [HERE](https://github.com/novag/SlimLoRa).*
 
