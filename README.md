@@ -9,7 +9,7 @@
 
 This repository contains the SlimLoRa LoRaWAN library with a sample project for ATtiny85 chips. It uses AES encryption routines originally written by Ideentron B.V.. SlimLoRa is compatible with all radio chips based on the Semtech SX1276 (e.g. HopeRF RFM95).
 
-Currently this library is heavily optimized for ATtiny85 chips and needs changes to run on other devices (e.g. Arduino). Furthermore, currently only the EU-868 band is supported.
+Currently this library is heavily optimized for ATtiny85 chips and needs changes to run on other devices (e.g. Arduino). Furthermore, currently only the as923-1 band is supported.
 
 SlimLoRa implements the ABP and OTAA activation schemes. It has support for downlink messages and the Adaptive Data Rate (ADR) mechanism.
 
