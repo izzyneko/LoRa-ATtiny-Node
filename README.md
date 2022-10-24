@@ -2,23 +2,8 @@
 
 
 # LoRa-ATtiny-Node
-               ________________                 
-         ANT   |                |   GND   ->   GND
-         GND   |                |   DIO5
-         DIO3  |                |   RESET
-         DIO4  |                |   NSS   ->   PB3
- VCC  <- 3.3V  |                |   SCK   ->   PB2
-         DIO0  |         _______|   MOSI  ->   PB1
-         DIO1  |        |       |   MISO  ->   PB0
-         DIO2  |________|___IC__|   GND
-         
-         
-         
-         
-         
-         
-+************************************+
-*************************************
+    
+
 
 *If you are looking for the generic SlimLoRa library for use with Arduinos click [HERE](https://github.com/novag/SlimLoRa).*
 
@@ -51,7 +36,16 @@ It also **does not** enforce a duty cycle. This must be ensured by the user.
 I developed SlimLoRa and this sample project as a fun project to prove that a full LoRaWAN implementation with support for various sensors can run on an ATtiny85 MCU with only 5 data pins, 8K of flash memory, 512 bytes of EEPROM, 512 bytes of SRAM and without an external clock.
 
 ## Installing
-
+                ________________                 
+         ANT   |                |   GND   ->   GND
+         GND   |                |   DIO5
+         DIO3  |                |   RESET
+         DIO4  |                |   NSS       PB3
+    VCC- 3.3V  |                |   SCK   ->   PB2
+         DIO0  |          ______|   MOSI  ->   PB1
+         DIO1  |         |  IC  |   MISO  ->   PB0
+         DIO2  |_________|____  |   GND
+         
 To compile and flash this library, attach your USB-ASP programmer and execute the following commands:
 
 ```bash
@@ -142,6 +136,7 @@ This library started from parts written by Ideetron B.V.. Of these, almost only 
 
 - Ideentron B.V. - [RFM95W_Nexus](https://github.com/Ideetron/RFM95W_Nexus)
 
+- novag   https://github.com/novag/LoRa-ATtiny-Node
 ## Trademark Acknowledgements
 
 LoRa is a registered trademark of Semtech Corporation. LoRaWAN is a registered trademark of the LoRa Alliance.
